@@ -1,11 +1,10 @@
 # Designing Microservices
 
 
-## posses many [Traits](Traits.md)
 
 ## is [Reactive](Reactive.md)
-
+## posses many [Traits](Traits.md)
 ## follows [Principles](Principles.md)
 
 
-### more [References](References.md)
+>>> more [References](References.md)
