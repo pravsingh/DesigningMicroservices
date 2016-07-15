@@ -24,6 +24,7 @@
 ## Bounded Context - DDD Principle
 
 >   When communicating with another Microservice, across Bounded Contexts, you can only ask politely for its state—you can’t force it to reveal it. Each service responds to a request at its own will, with immutable data (facts) derived from its current state, and never exposes its mutable state directly.
+
 >   This gives each service the freedom to represent its state in any way it wants, and store it in the format and medium that is most suitable. Some services might choose a traditional Relational Database Man‐ agement System (RDBMS) (examples include Oracle, MySQL and Postgres), some a NoSQL database (for example Cassandra and Riak), some a Time-Series database (for example InfluxDB and OpenTSDB) and some to use an Event Log11 (good backends include Kafka, Amazon Kinesis and Cassandra) through techniques such as Event Sourcing12 and Command Query Responsibility Segregation (CQRS).
 
 Conway's Law in 1967:
