@@ -2,6 +2,7 @@
 ## scalable
 ## resilient
 >   the ability to heal from failure
+
 ## cohesive
 ## reactive? [Reactive Manifesto](http://www.reactivemanifesto.org/)
 ### share-nothing architecture
@@ -10,12 +11,16 @@
 ### 
 ## Bulkheading
 >   create watertight compartments that can contain water in the case of a hull breach or other leak.
+
 ### Failure isolation
 >   to contain and manage failure without having it cascade throughout the services participating in the workflow—is a pattern sometimes referred to as Bulkheading
+
 ## Act Autonomously 
 >   Isolation is a prerequisite for autonomy. An autonomous service can only promise6 its own behaviour by pub‐ lishing its protocol/API. Another aspect of autonomy is that if a service only can make prom‐ ises about its own behavior, then all information needed to resolve a conflict or to repair under failure scenarios are available within the service itself, removing the need for communication and coordina‐ tion.
+
 ## SRP - Single Responsibil‐ ity Principle
 >   Unix Philosophy - Do One Thing, and Do It Well
+
 ## Bounded Context - DDD Principle
 
 >   When communicating with another Microservice, across Bounded Contexts, you can only ask politely for its state—you can’t force it to reveal it. Each service responds to a request at its own will, with immutable data (facts) derived from its current state, and never exposes its mutable state directly.
