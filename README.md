@@ -35,7 +35,7 @@
 ## Act Autonomously 
 >   Isolation is a prerequisite for autonomy. An autonomous service can only promise6 its own behaviour by pub‐ lishing its protocol/API. Another aspect of autonomy is that if a service only can make prom‐ ises about its own behavior, then all information needed to resolve a conflict or to repair under failure scenarios are available within the service itself, removing the need for communication and coordina‐ tion.
 
-## SRP - Single Responsibil‐ ity Principle
+## SRP - Single Responsibility Principle
 >   Unix Philosophy - Do One Thing, and Do It Well
 
 ## Event Log
