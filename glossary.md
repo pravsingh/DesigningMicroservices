@@ -39,6 +39,7 @@
 
 > There are benefits to reap from decentralized data management and persistence—sometimes called Polyglot Persistence. Conceptually, which storage medium is used does not really matter; what matters is that a service can be treated as a single unit—including its state and behavior—and in order to do that each service needs to own its state, exclusively. This includes not allowing one service to call directly into the persistent storage of another service, but only through its API—something that might be hard to enforce program‐ matically and therefore needs to be done using conventions, policies and code reviews.
 
+### Polyglot Persistence
 
 Conway's Law in 1967:
 >   Any organization that designs a system (defined broadly) will pro‐ duce a design whose structure is a copy of the organization’s com‐ munication structure.
